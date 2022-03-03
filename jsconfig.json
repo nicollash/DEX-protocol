@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "jsx": "react",
+    "sourceMap": true,
+    "rootDir": "src"
+  },
+  "include": ["src"]
+}

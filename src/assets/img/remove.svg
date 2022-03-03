@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="92" height="92" viewBox="0 0 92 92">
+    <defs>
+        <filter id="3oybxk5oya" width="295%" height="295%" x="-97.5%" y="-97.5%" filterUnits="objectBoundingBox">
+            <feOffset dx="6" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.736043478 0 0 0 0 0.764217391 0 0 0 0 0.81 0 0 0 1 0"/>
+            <feOffset dx="-6" dy="-6" in="SourceAlpha" result="shadowOffsetOuter2"/>
+            <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="10"/>
+            <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+            <feOffset dx="-1" dy="-1" in="SourceAlpha" result="shadowOffsetOuter3"/>
+            <feGaussianBlur in="shadowOffsetOuter3" result="shadowBlurOuter3" stdDeviation="1.5"/>
+            <feColorMatrix in="shadowBlurOuter3" result="shadowMatrixOuter3" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="shadowMatrixOuter2"/>
+                <feMergeNode in="shadowMatrixOuter3"/>
+            </feMerge>
+        </filter>
+        <filter id="z5rqsldmfc" width="133.3%" height="133.3%" x="-16.7%" y="-16.7%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.773247863 0 0 0 0 0.790982906 0 0 0 0 0.83 0 0 0 1 0"/>
+        </filter>
+        <filter id="pvzbahj6be" width="133.3%" height="133.3%" x="-16.7%" y="-16.7%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="2"/>
+            <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+        </filter>
+        <rect id="168pf19rdb" width="40" height="40" x="0" y="0" rx="20"/>
+        <rect id="p6mnhvqjtd" width="36" height="36" x="2" y="2" rx="18"/>
+        <path id="6x0imxeuzf" d="M8.4 0c1.16 0 2.1.977 2.1 2.182v.727h2.8c.354 0 .647.274.694.629l.006.098c0 .402-.313.728-.7.728l-.7-.001v9.455c0 1.153-.86 2.097-1.95 2.177L10.5 16h-7c-1.16 0-2.1-.977-2.1-2.182V4.363H.7c-.354 0-.647-.273-.694-.628L0 3.636c0-.401.313-.727.7-.727h2.8v-.727c0-1.153.86-2.097 1.95-2.177L5.6 0zm2.8 4.363H2.8v9.455c0 .368.263.673.605.72l.095.007h7c.387 0 .7-.325.7-.727V4.363zM5.6 6.545c.387 0 .7.326.7.728v4.363c0 .402-.313.728-.7.728-.387 0-.7-.326-.7-.728V7.273c0-.402.313-.728.7-.728zm2.8 0c.387 0 .7.326.7.728v4.363c0 .402-.313.728-.7.728-.387 0-.7-.326-.7-.728V7.273c0-.402.313-.728.7-.728zm0-5.09H5.6c-.387 0-.7.325-.7.727v.727h4.2v-.727c0-.368-.263-.673-.605-.72L8.4 1.454z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g transform="translate(-744 -606) translate(370 386) translate(260 246) translate(140)">
+                            <use fill="#000" filter="url(#3oybxk5oya)" xlink:href="#168pf19rdb"/>
+                            <use fill="#ECF0F3" xlink:href="#168pf19rdb"/>
+                        </g>
+                        <g transform="translate(-744 -606) translate(370 386) translate(260 246) translate(140)">
+                            <use fill="#000" filter="url(#z5rqsldmfc)" xlink:href="#p6mnhvqjtd"/>
+                            <use fill="#ECF0F3" xlink:href="#p6mnhvqjtd"/>
+                            <use fill="#000" filter="url(#pvzbahj6be)" xlink:href="#p6mnhvqjtd"/>
+                        </g>
+                        <g transform="translate(-744 -606) translate(370 386) translate(260 246) translate(140) translate(13 12)">
+                            <use fill="#E36060" fill-rule="nonzero" xlink:href="#6x0imxeuzf"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,2 @@
+export const SAVE_POOL_LIST = 'SAVE_POOL_LIST'
+export const SET_POOL_LOADING = 'SET_POOL_LOADING'

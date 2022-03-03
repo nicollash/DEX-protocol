@@ -1,0 +1,4 @@
+export const SAVE_TOKEN = 'SAVE_TOKEN'
+export const SAVE_WALLET = 'SAVE_WALLET'
+export const SAVE_BALANCE = 'SAVE_BALANCE'
+export const SAVE_PRIVATE_KEY = 'SAVE_PRIVATE_KEY'
